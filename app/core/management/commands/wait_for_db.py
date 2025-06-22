@@ -10,7 +10,7 @@ from django.core.management.base import BaseCommand
 
 
 class Command(BaseCommand):
-    """Django s=command to wait for database"""
+    """Django command to wait for database"""
 
     def handle(self, *args, **options):
         """Entry point for command."""
